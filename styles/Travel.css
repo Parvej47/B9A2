@@ -111,7 +111,7 @@ nav li {
     color: rgba(19, 19, 24, 0.50);
     font-size: 16px;
     font-weight: 400;
-    padding: 1rem 1.5rem 1rem 1rem;
+    padding: 1rem 0rem 1rem 1rem;
     border-radius: 8px;
     background: #FFF;
     border: 0;
@@ -501,8 +501,7 @@ nav li {
     background: rgba(19, 19, 24, 0.05);
     margin-top: 5rem;
     padding-top: 60px;
-    padding-bottom: 60px
-    ;
+    padding-bottom: 60px;
 
 }
 
@@ -541,4 +540,134 @@ nav li {
     font-size: 16px;
     font-weight: 300;
     margin-top: 30px;
+}
+
+@media screen and (max-width: 576px) {
+    * {
+        max-width: 335px;
+    }
+
+    header {
+        padding: 5px;
+        width: 90%;
+    }
+
+    .head-title,
+    .title-image {
+        width: 80%;
+        height: 80%;
+    }
+
+    .banner {
+        width: 80%;
+        flex-shrink: 0;
+        margin: 0 auto;
+    }
+
+    .banner-title {
+        width: 90%;
+        font-size: 22px;
+        margin: 0 auto;
+    }
+
+    .banner-description {
+        width: 90%;
+        font-size: 10px;
+    }
+
+    .banner-inputs {
+        display: flex;
+        width: 80%;
+        padding: 10px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        margin: 0 auto;
+    }
+
+    .in-text {
+        flex-shrink: 0;
+        width: 100%;
+    }
+
+    .find-now {
+        flex-shrink: 0;
+        width: 100%;
+    }
+
+    .blog {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .blog-contents {
+        flex-shrink: 0;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .blog-title {
+        font-size: 15px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .blog-description {
+        font-size: 14px;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 5px;
+    }
+
+    .blog-points {
+        width: 80%;
+        font-size: 14px;
+        margin: 0 auto;
+    }
+
+    .blog-image {
+        width: 90%;
+        margin: 20px;
+        flex-shrink: 0;
+        border-radius: 16px;
+        margin-top: 5px;
+    }
+
+    .destinations {
+        margin: 0 auto;
+    }
+
+    .dest-head {
+        font-size: 20px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .dest-description{
+        font-size: 14px;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 6px;
+    }
+    .row1{
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .maldives{
+        width: 90%;
+        margin: 20px;
+        flex-shrink: 0;
+        border-radius: 16px;
+        margin-top: 10px;
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    .indonesia{
+        width: 90%;
+        margin: 20px;
+        flex-shrink: 0;
+        border-radius: 16px;
+        margin-top: 10px;
+        font-size: 20px;
+        margin-top: 10px;
+    }
 }
