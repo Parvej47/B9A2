@@ -180,13 +180,13 @@ nav li {
 /* desnitation styles */
 .destinations {
     max-width: 73rem;
-    margin: 0 auto;
-    margin-top: 3rem;
+    margin: 3rem auto;
 }
 
 .dest-title {
     text-align: center;
     margin-bottom: 0px;
+    margin-top: 1.5rem;
 }
 
 .dest-head {
@@ -315,3 +315,180 @@ nav li {
     background-repeat: no-repeat;
     border-radius: 1rem;
 }
+
+/* choose features section */
+.choose {
+    text-align: center;
+    max-width: 73rem;
+    margin: 0 auto;
+    margin-top: -7rem;
+}
+
+.choose-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.choose-description {
+    margin: 1.5rem auto;
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.choose-features {
+    max-width: 73rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+.choose1 {
+    display: flex;
+    margin-left: 4rem;
+}
+
+.hotel {
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    border-radius: 16px;
+    height: 284px;
+    flex-shrink: 0;
+    margin-right: 2rem;
+    padding: 1rem 0 0 1rem;
+}
+
+.service {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+
+    height: 284px;
+    flex-shrink: 0;
+    padding: 1rem 0 0 1rem;
+}
+
+.price {
+    margin: 0 auto;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    margin-top: 2rem;
+    padding: 1rem 0 0 1rem;
+}
+
+.feature-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.feature-description {
+    width: 486px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* news letter section */
+.news {
+    display: flex;
+    max-width: 73rem;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+
+.news-content {
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px;
+    justify-content: center;
+    margin-right: 2rem;
+}
+
+.news-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.news-description {
+    width: 350px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.inpu {
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    border: 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.news-img {
+    width: 672px;
+    height: 422px;
+    flex-shrink: 0;
+    background: url(../Images/Rectangle\ 8\ \(1\).png);
+}
+
+.hr {
+    background: rgba(19, 19, 24, 0.10);
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.news-text {
+    width: 324px;
+    height: 120px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    transform: rotate(-19.628deg);
+    background: #FF5400;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    right: 10%;
+    margin-top: 250px;
+    margin-right: 15px;
+}
+
+.img-head {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+    }
+
+.img-text {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+    margin-top: -10px;
+}
+
+.subscribe {
+    width: 393px;
+    height: 52px;
+    border: 0;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    }
