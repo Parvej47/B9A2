@@ -613,8 +613,8 @@ nav li {
     .blog-title {
         font-size: 20px;
         width: 178px;
-        height: 25px;
         margin: 0 auto;
+        margin-bottom: 10px;
 
     }
 
@@ -723,6 +723,7 @@ nav li {
         width: 309px;
         font-size: 14px;
         margin: 0 auto;
+        margin-top: 20px;
     }
 
     .choose1 {
